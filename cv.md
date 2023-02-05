@@ -28,17 +28,18 @@ ___
 
 #### 5. Code examples
 
-   ```<!DOCTYPE html>
-    <html>
-    <head>
-        <title>Yo</title>
-    </head>
-    <body>
-        <div>
-            <p>"Hello World!"</p>
-        </div>
-    </body>
-    </html>```
+```<!DOCTYPE html>
+<html>
+<head>
+    <title>Yo</title>
+</head>
+<body>
+    <div>
+        <p>"Hello World!"</p>
+    </div>
+</body>
+</html>
+```
 
 ___
 
