@@ -24,6 +24,90 @@
         </div>
     </header>
 
+    <main class = "main">
+        <div class="main-container">
+            <div class="about">
+                <section class="section" id="profile">
+                    <h1 class="section-title">Pavel Shlapak</h1>
+                    <img class="avatar" src="assets/img/avatar.jpg" alt="my photo">
+                </section>
     
+                <section class="section" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul>                                      
+                        <li>Email: <a class="link link-white" target="_blank" href="mailto:Letohx@gmail.com">Letohx@gmail.com</a></li>
+                        <li>Discord: <a class="link link-white" target="_blank" href="https://discord.com/">@letohx</a></li>
+                        <li>Telegram: <a class="link link-white" target="_blank" href="https://t.me/letohx">@letohx</a></li>
+                    </ul>
+    
+                </section>
+                
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul>
+                        <li>Git</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Markdown</li>
+                        <li>Figma</li>
+                        <li>Pine Script</li>
+                        <li>Working in Visual Studio Code, Notepad++</li>
+                     </ul>
+                </section>
+            </div>
+
+            <div class="about-me">
+                <section class="section" id="summary">
+                    <h2 class="section-title">About me</h2>
+                    <p>I am eager to learn and take on new challenges. I am passionate about personal and professional development, and I am always looking for new opportunities to grow and improve. I am confident that I have the drive and determination to succeed in any role and I am eager to start my career.</p>
+                </section>
+                
+                <section class="section" id="code">
+                    <h2 class="section-title">Code examples</h2>
+                    <pre><code>
+    var countBits = function(number) {
+      const binary = [];
+      let n = number;
+        
+      for (let i = 0; i &lt; 99999 ; i++) {   
+        binary.push(n % 2);  
+        n = Math.floor(n / 2);
+      };
+        
+      const result = binary.reduce((acc, num) =&gt; acc + num, 0);
+        
+      return result;
+    };</code></pre>
+                    
+                </section>
+    
+                <section class="section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+                    <ul>
+                        <li><a class="link" target="_blank" href="https://rolling-scopes-school.github.io/letohx-JSFEPRESCHOOL2022Q4/plants/">Plants [HTML, CSS, JavaScript]</a></li>
+                        <li><a class="link" target="_blank" href="https://letohx.github.io/stage1-tasks/">Momentum [HTML, CSS, JavaScript]</a></li>
+                    </ul>
+                </section>
+    
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <ul>
+                        <li>Belarusian State University of Informatics and Radioelectronics</li>
+                        <li>Vitebsk State Technological College</li>
+                     </ul>                
+                </section>
+    
+                <section class="section" id="languages">
+                    <h2 class="section-title">Languages</h2>
+                    <ul>
+                        <li>English (A2)</li>
+                        <li>Russian (native)</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+
 </body>
 </html>
